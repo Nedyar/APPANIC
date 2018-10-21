@@ -1,0 +1,46 @@
+{
+  "datos": [
+    {
+      "nombre": "Polideportivo Cabo Canaveral",
+      "lat": "-00.015187",
+      "lon": "00.008372",
+      "src": "images/campamento.png"
+    },
+    {
+      "nombre": "Almacen Mercadona",
+      "lat": "-00.005187",
+      "lon": "00.012372",
+      "src": "images/campamento.png"
+    },
+    {
+      "nombre": "C/Bailen 55, 3ro Derecha",
+      "lat": "-00.005097",
+      "lon": "-00.008372",
+      "src": "images/casa.png"
+    },
+    {
+      "nombre": "Av.ellanas 89",
+      "lat": "00.011187",
+      "lon": "00.012772",
+      "src": "images/casa.png"
+    },
+    {
+      "nombre": "Hospital del palo",
+      "lat": "00.013687",
+      "lon": "-00.009372",
+      "src": "images/hospital.png"
+    },
+    {
+      "nombre": "Centro de salud de Foietes",
+      "lat": "-00.010187",
+      "lon": "00.008099",
+      "src": "images/hospital.png"
+    },
+    {
+      "nombre": "C/Amor 10, Puerta 4",
+      "lat": "-00.015200",
+      "lon": "-00.004909",
+      "src": "images/casa.png"
+    }
+  ]
+}

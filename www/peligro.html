@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <!--
+        Personalice la directiva de seguridad de contenido en la etiqueta meta como sea necesario. Agregue "unsafe-inline" a default-src para permitir JavaScript insertado.
+        Para obtener m�s detalles, consulte http://go.microsoft.com/fwlink/?LinkID=617521
+    -->
+    <!-- BORJA -->
+    <meta charset="utf-8" />
+    <!-- Apache Cordova-->
+    <script type="text/javascript" src="cordova.js"></script>
+    <!--JQUERY -->
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <!--JQUERY MOBILE -->
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <!-- El atributo "async" es necesario para que RequireJS funcione en una aplicación de Windows. -->
+    <script type='text/javascript' src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap' async defer></script>
+    <script src="scripts/funciones.js"></script>
+    <script type='text/javascript'>
+        function GetMap() {
+            var map = new Microsoft.Maps.Map('#myMap', {
+                credentials: 'AtduW9DF_d-pDctZlrkwT-MsR-7HIUOvFc2ari8nCEGIGFzhID0jMo3GcxyZNwdt'
+            });
+            mapaInicial(map);
+        }
+    </script>
+
+
+    <!-- MIO -->
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+
+
+
+    <script type="text/javascript" src="scripts/index.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/peligro.css">
+    <link rel="stylesheet" type="text/css" href="font/css/fontello.css">
+
+
+
+
+    <title>APPANIC</title>
+
+</head>
+<body>
+    <header>
+        <label>Sergio</label>
+        <a onclick="location.href = 'index.html';" class="icon-attention-circled"></a>
+        <div><p><b>Estado: </b>&iexcl;Peligro!<br>Alerta roja  por <br>inundaciones <a href="">mas</a></p></div>
+    </header>
+
+    <main>
+        <div role="main" id="myMap" style="position:relative;width:100%;height:530px;"></div>
+        <a href="">Añadir <br /> refugio</a>
+    </main>
+
+    <footer>
+        <section id="primero">
+            <a><span class="icon-phone"></span>Servicios de emergencia</a>
+        </section>
+        <section id="segundo">
+            <a onclick="location.href = 'ayuda_inmediata.html';"><span class="icon-phone"></span>Asistencia inmediata</a>
+        </section>
+    </footer>
+</body>
+</html>
